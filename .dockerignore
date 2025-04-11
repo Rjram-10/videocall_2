@@ -1,0 +1,52 @@
+# .dockerignore file for the provided project structure
+
+# Ignore target directory (Java build output)
+target/
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore temporary and log files
+tmp/
+temp/
+*.tmp
+*.log
+
+# Ignore environment and secret files
+.env*
+*.pem
+*.key
+*.crt
+
+# Ignore documentation files
+docs/
+*.md
+README*
+
+# Ignore build and test artifacts
+dist/
+build/
+out/
+test/
+
+# Ignore Docker-related files
+Dockerfile*
+docker-compose*
+
+# Ignore Maven wrapper files
+
+
+# Ignore empty directories
+**/.empty
+
+# Ensure necessary files are included
+!src/**
+
+# End of .dockerignore file
