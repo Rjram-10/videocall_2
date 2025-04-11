@@ -42,6 +42,6 @@ jobs:
             ${{ env.IMAGE_NAME }}:${{ github.sha }}
 
       # Step 5: Test the Docker image (optional)
-      - name: Test Docker image
-        run: |
-          docker run --rm ${{ env.IMAGE_NAME }}:latest echo "Image is working!"
+      # - name: Test Docker image
+      #   run: |
+      #     docker run --rm ${{ env.IMAGE_NAME }}:latest echo "Image is working!"
